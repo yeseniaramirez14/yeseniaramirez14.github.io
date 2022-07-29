@@ -1,0 +1,5 @@
+pink: #F0D1D4
+brown: #5F4845
+light/pink brown: #977872
+green: #E9FFD6
+grey: #595959
