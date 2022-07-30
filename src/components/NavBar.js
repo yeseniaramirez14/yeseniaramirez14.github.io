@@ -41,13 +41,14 @@ export const NavBar = () =>  {
                     <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')} >Home</Nav.Link>
                     <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
                     <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+                    <Nav.Link href="#connect" className={activeLink === 'connect' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('active')}>Contact Me</Nav.Link>
                 </Nav>
                 <span className="navbar-text">
                     <div className="social-icon">
                         <a href="https://www.linkedin.com/in/yeseniaramirez14/"><img src={linkedIn} alt="Linked In" /></a>
                         <a href="https://github.com/yeseniaramirez14"><img src={github} alt="Github" /></a>
                     </div>
-                    <button className="vvd" onClick={() => console.log('connect')}><span>Let's connect!</span></button>
+                    <a href="#connect"><button><span>Let's connect!</span></button></a>
                 </span>
                 </Navbar.Collapse>
             </Container>

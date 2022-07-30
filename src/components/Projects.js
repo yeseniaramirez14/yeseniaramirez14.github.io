@@ -1,8 +1,8 @@
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard"
-import projImg1 from "../assets/img/project-img1.png"
-import projImg2 from "../assets/img/project-img2.png"
-import projImg3 from "../assets/img/project-img3.png"
+import chicEvents from "../assets/img/chic-events.png"
+import stayClassic from "../assets/img/stay-classic.png"
+import overrated from "../assets/img/overrated.png"
 import TrackVisibility from "react-on-screen";
 import "animate.css";
 import { Footer } from './Footer';
@@ -13,34 +13,22 @@ export const Projects = () => {
     const projects = [
         {
             title: "Chic Events",
-            description: "Design & Development",
-            imgUrl: projImg1,
+            description: "An event planning web application for booking the perfect event package to create a stress-free and chic experience with all your guests.",
+            imgUrl: chicEvents,
+            gitUrl: "https://github.com/yeseniaramirez14/chic-events"
           },
           {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg2,
+            title: "Stay Classic Dealership",
+            description: "A car dealership web application that solves the needs of a classic automobile operation including inventory, sales, and car services.",
+            imgUrl: stayClassic,
+            gitUrl: "https://github.com/yeseniaramirez14/stay-classic"
           },
           {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg3,
+            title: "Overrated",
+            description: "A dating web application where users can find their soulmate by weeding out bad seeds with the implementation of dating reviews.",
+            imgUrl: overrated,
+            gitUrl: "https://github.com/yeseniaramirez14/chic-events"
           },
-          {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg1,
-          },
-          {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg2,
-          },
-          {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg3,
-          }, 
     ];
 
     return (
@@ -50,43 +38,25 @@ export const Projects = () => {
                     <Col>
                     <TrackVisibility>
                         {({ isVisible }) =>
-                        <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                        <div className={isVisible ? "animate__animated animate__fadeIn project-bx" : "project-bx"}>
+                        <hr className="divider"></hr>
                         <h2>&lt;Projects /&gt;</h2>
-                        <p>Description</p>
                         </div>}
                     </TrackVisibility>
-                        <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                            <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                                <Nav.Item>
-                                <Nav.Link eventKey="first">Tab 1</Nav.Link>
-                                </Nav.Item>
-                                <Nav.Item>
-                                <Nav.Link eventKey="second">Tab 2</Nav.Link>
-                                </Nav.Item>
-                                <Nav.Item>
-                                <Nav.Link eventKey="third">Tab 3</Nav.Link>
-                                </Nav.Item>
-                            </Nav>
-                            <Tab.Content>
-                                <Tab.Pane eventKey="first">
-                                    <Row>
-                                        {
-                                        projects.map((project, index) => {
-                                            return (
-                                                <ProjectCard key={index} {...project} />
-                                            )
-                                        })
-                                        }
-                                    </Row>
-                                </Tab.Pane>
-                                <Tab.Pane eventKey="second">more words</Tab.Pane>
-                                <Tab.Pane eventKey="third">more words here</Tab.Pane>
-                            </Tab.Content>
-                        </Tab.Container>
+                        <div>
+                        <Row>
+                            {
+                            projects.map((project, index) => {
+                                return (
+                                    <ProjectCard key={index} {...project} />
+                                )
+                            })
+                            }
+                        </Row>
+                        </div>
                     </Col>
                 </Row>
             </Container>
-            {/* <img className="background-image-right" src={colorSharp2} /> */}
             <Contact />
             <Footer />
         </section>

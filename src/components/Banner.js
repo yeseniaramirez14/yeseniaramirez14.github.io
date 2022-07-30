@@ -64,7 +64,7 @@ export const Banner = () => {
                 >
                   <span className="tagline">&lt;Hello World /&gt;</span>
                   <h1>I'm Yesenia</h1>
-                  <h2 className="wrap">{text}</h2>
+                  <h2 className="wrap">{`${text}|`}</h2>
                   <p>
                     I'm a <b>full stack software engineer</b> whose fire and passion
                     for problem-solving and creativity was reignited once making
@@ -72,17 +72,17 @@ export const Banner = () => {
                     engineering, I was in the nutrition field. After some
                     self-reflection, I decided to apply to Hack Reactor's
                     accelerated coding bootcamp, which I completed in July 2022.
-                    I love the ever-changing programming landscape and continuous 
-                    learning to create useful software for users.
+                    I love the ever-changing programming landscape and the challenge 
+                    of learning new tools, programming languages, and frameworks. I 
+                    am eager to continue my learning and grow as a software engineer!  
                   </p>
                   <p>
-                    I am now <i><b>open to work</b></i> and look forward to the opportunity to grow as
-                    a software engineer.
+                    I am now <i><b>open to work</b></i> and looking for new job opportunities! 
                   </p>
-                  <button onClick={() => console.log("connect")}>
+                  <a href="#connect"><button>
                     Let's Connect{" "}
                     <ArrowRightCircle size={25}></ArrowRightCircle>
-                  </button>
+                  </button></a>
                 </div>
               )}
             </TrackVisibility>
