@@ -74,14 +74,14 @@ export const NavBar = () => {
           <span className="navbar-text">
             <div className="social-icon">
               <a
-                href="https://bit.ly/yesenia-linkedin"
+                href="https://www.linkedin.com/in/yeseniaramirez14/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <img src={linkedIn} alt="Linked In" />
               </a>
               <a
-                href="https://bit.ly/yesenia-github"
+                href="https://github.com/yeseniaramirez14"
                 target="_blank"
                 rel="noreferrer"
               >

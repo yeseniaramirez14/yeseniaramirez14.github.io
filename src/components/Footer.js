@@ -10,14 +10,14 @@ export const Footer = () => {
           <Col xs={6} sm={6}>
             <div className="social-icon">
               <a
-                href="https://bit.ly/yesenia-linkedin"
+                href="https://www.linkedin.com/in/yeseniaramirez14/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <img src={linkedIn} />
               </a>
               <a
-                href="https://bit.ly/yesenia-github"
+                href="https://github.com/yeseniaramirez14"
                 target="_blank"
                 rel="noreferrer"
               >

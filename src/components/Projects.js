@@ -14,21 +14,21 @@ export const Projects = () => {
       description:
         "An event planning web application for booking the perfect event package to create a stress-free and chic experience with all your guests.",
       imgUrl: chicEvents,
-      gitUrl: "https://bit.ly/chic-events-github",
+      gitUrl: "https://github.com/yeseniaramirez14/chic-events",
     },
     {
       title: "Stay Classic Dealership",
       description:
         "A car dealership web application that solves the needs of a classic automobile operation including inventory, sales, and car services.",
       imgUrl: stayClassic,
-      gitUrl: "https://bit.ly/stay-classic-github",
+      gitUrl: "https://github.com/yeseniaramirez14/stay-classic",
     },
     {
       title: "Overrated",
       description:
         "A dating web application where users can find their soulmate by weeding out bad seeds with the implementation of dating reviews.",
       imgUrl: overrated,
-      gitUrl: "https://bit.ly/overrated-github",
+      gitUrl: "https://github.com/yeseniaramirez14/overrated",
     },
   ];
 
