@@ -327,18 +327,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
-
 }
 .skill p {
-    color: #ffffff;
-    font-size: 18px;
-    letter-spacing: 0.8px;
-    line-height: 1.5em;
-    margin: 14px 0 75px 0;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 75px 0;
+}
+.item-bx {
+  padding: 12px;
 }
 .item {
-  width: 50%;
-  margin: 0 auto 50px auto;
+  width: 100%;
+  margin: auto;
   text-align: center;
 }
 .item h5{
@@ -347,6 +349,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .item svg{
   color: #A17F7D;
+  height: 100%
 }
 .item svg:hover {
   transition-duration: 150ms;
@@ -440,7 +443,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Contact CSS ************/
 .contact {
-  padding: 110px 0 200px 0;
+  padding: 80px 0 80px 0;
 }
 .contact-img {
   padding: 20px 0;
@@ -542,7 +545,7 @@ input:-webkit-autofill:active{
 
 /************ SuccessMsg CSS ************/
 .success {
-  padding: 110px 0 200px 0;
+  padding: 110px 0 80px 0;
 }
 .success h3 {
   font-weight: 700;
