@@ -7,7 +7,7 @@ export const Footer = () => {
     <footer className="footer">
       <Container>
         <Row className="align-item-center footer-bx">
-          <Col sm={6}>
+          <Col xs={6} sm={6}>
             <div className="social-icon">
               <a
                 href="https://bit.ly/yesenia-linkedin"
@@ -26,7 +26,7 @@ export const Footer = () => {
             </div>
             <p>Thanks for stopping by!</p>
           </Col>
-          <Col sm={6} className="text-sm-end">
+          <Col xs={6} sm={6} className="align-self-end">
             <a href="#home">
               <h1>&lt;/Yesenia&gt;</h1>
             </a>

@@ -41,14 +41,12 @@ export const Projects = () => {
               <hr className="divider"></hr>
               <h2>&lt;Projects /&gt;</h2>
             </div>
-            <div>
-              <Row>
-                {projects.map((project, index) => {
-                  return <ProjectCard key={index} {...project} />;
-                })}
-              </Row>
-            </div>
           </Col>
+        </Row>
+        <Row xs={1} sm={1} md={1} lg={2} xl={3} xxl={3}>
+          {projects.map((project, index) => {
+            return <ProjectCard key={index} {...project} />;
+          })}
         </Row>
       </Container>
       <Contact />
