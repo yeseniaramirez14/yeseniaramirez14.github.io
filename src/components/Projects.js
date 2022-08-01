@@ -10,11 +10,11 @@ import { Contact } from "./Contact";
 export const Projects = () => {
   const projects = [
     {
-      title: "Chic Events",
+      title: "Overrated",
       description:
-        "An event planning web application for booking the perfect event package to create a stress-free and chic experience with all your guests.",
-      imgUrl: chicEvents,
-      gitUrl: "https://github.com/yeseniaramirez14/chic-events",
+        "A dating web application where users can find their soulmate by weeding out bad seeds with the implementation of dating reviews.",
+      imgUrl: overrated,
+      gitUrl: "https://github.com/yeseniaramirez14/overrated",
     },
     {
       title: "Stay Classic Dealership",
@@ -24,11 +24,11 @@ export const Projects = () => {
       gitUrl: "https://github.com/yeseniaramirez14/stay-classic",
     },
     {
-      title: "Overrated",
+      title: "Chic Events",
       description:
-        "A dating web application where users can find their soulmate by weeding out bad seeds with the implementation of dating reviews.",
-      imgUrl: overrated,
-      gitUrl: "https://github.com/yeseniaramirez14/overrated",
+        "An event planning web application for booking the perfect event package to create a stress-free and chic experience with all your guests.",
+      imgUrl: chicEvents,
+      gitUrl: "https://github.com/yeseniaramirez14/chic-events",
     },
   ];
 
