@@ -1,39 +1,37 @@
-body 
-  
-  .nodeLogo,
-  .babelLogo,
-  .reactLogo,
-  .sassLogo,
-  .webpackLogo {
+  /* .javascriptLogo,
+  .djangoLogo,
+  .pythonLogo,
+  .bootstrapLogo,
+  .reactLogo {
     position: absolute;
     height: 40px;
   }
   
-  .nodeLogo {
+  .javascriptLogo {
     height: 50px;
   }
   
-  .babelLogo {
+  .djangoLogo {
     height: 25px;
-  }
+  } */
   
-  .nodeLogo {
+  .javascriptLogo {
     animation: orbit1 5s infinite linear;
   }
   
-  .reactLogo {
+  .pythonLogo {
     animation: orbit2 5s infinite linear;
   }
   
-  .sassLogo {
+  .bootstrapLogo {
     animation: orbit3 5s infinite linear;
   }
   
-  .webpackLogo {
+  .reactLogo {
     animation: orbit4 5s infinite linear;
   }
   
-  .babelLogo {
+  .djangoLogo {
     animation: orbit5 5s infinite linear;
   }
   

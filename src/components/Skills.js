@@ -27,31 +27,31 @@ export const Skills = () => {
             </div>
           </Col>
         </Row>
-        <Row xs={3} sm={3} md={3} lg={3} xl={3} xxl={3}>
-          <Col className="item-bx" xl={3} xxl={3}>
+        <Row xs={3} sm={3} md={4} lg={4} xl={4} xxl={4}>
+          <Col className="item-bx">
             <div className="align-self-center item">
               <SiPython size={"5em"}/>
             <h5>Python</h5>
             </div>
           </Col>
-          <Col className="item-bx" xl={3} xxl={3}>
+          <Col className="item-bx">
             <div className="align-self-center item" >
               <SiJavascript size={"5em"}/>
               <h5>JavaScript</h5>
             </div>
           </Col>
-          <Col className="item-bx" xl={3} xxl={3}>
+          {/* <Col className="item-bx">
             <div className="align-self-center item">
               <SiHtml5 size={"5em"}/>
              <h5>HTML</h5>
             </div>
           </Col>
-          <Col className="item-bx" xl={3} xxl={3}>
+          <Col className="item-bx">
             <div className="align-self-center item">
               <SiCss3 size={"5em"}/>
             <h5>CSS</h5>
             </div>
-          </Col>
+          </Col> */}
           <Col className="item-bx">
             <div className="item">
               <SiBootstrap size={"5em"}/>
@@ -88,19 +88,19 @@ export const Skills = () => {
             <h5>Docker</h5>
             </div>
           </Col>
-          <Col className="item-bx">
+          <Col className="item-bx" md={4} lg={4} xl={4} xxl={4}>
             <div className="item">
               <SiPandas size={"5em"}/>
             <h5>Pandas</h5>
             </div>
           </Col>
-          <Col className="item-bx">
+          <Col className="item-bx" xs={6} sm={6} md={4} lg={4} xl={4} xxl={4}>
             <div className="item matplotlib">
               <img src={matplotlib} alt="matplotlib"/>
             <h5>Matplotlib</h5>
             </div>
           </Col>
-          <Col className="item-bx">
+          <Col className="item-bx" xs={6} sm={6} md={4} lg={4} xl={4} xxl={4}>
             <div className="item seaborn">
               <img src={seaborn} alt="seaborn"/>
             <h5>Seaborn</h5>
