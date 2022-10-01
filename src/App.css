@@ -356,6 +356,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transform: scale(1.1);
   color: #5F4845
 }
+.item img{
+  color: #A17F7D;
+  width: 5em;
+}
+.item.matplotlib img:hover {
+  transition-duration: 150ms;
+  transform: scale(1.1);
+  content: url(assets/img/Matplotlib_icon_hover.svg);
+  fill: #5F4845;  
+}
+.item.seaborn img:hover {
+  transition-duration: 150ms;
+  transform: scale(1.1);
+  content: url(assets/img/seaborn_hover.svg);
+  fill: #5F4845;  
+}
 
 /************ Projects CSS ************/
 .project {

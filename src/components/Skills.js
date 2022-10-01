@@ -10,7 +10,10 @@ import {
   SiDocker,
   SiFastapi,
   SiBootstrap,
+  SiPandas
 } from "react-icons/si";
+import matplotlib from "../assets/img/Matplotlib_icon.svg";
+import seaborn from "../assets/img/seaborn.svg";
 
 export const Skills = () => {
   return (
@@ -24,26 +27,26 @@ export const Skills = () => {
             </div>
           </Col>
         </Row>
-        <Row xs={3} sm={3} md={5} lg={5} xl={5} xxl={5}>
-          <Col className="item-bx" xs={3} sm={3} >
-            <div className="align-self-center item" >
-              <SiJavascript size={"5em"}/>
-              <h5>JavaScript</h5>
-            </div>
-          </Col>
-          <Col className="item-bx" xs={3} sm={3}>
+        <Row xs={3} sm={3} md={3} lg={3} xl={3} xxl={3}>
+          <Col className="item-bx" xl={3} xxl={3}>
             <div className="align-self-center item">
               <SiPython size={"5em"}/>
             <h5>Python</h5>
             </div>
           </Col>
-          <Col className="item-bx" xs={3} sm={3}>
+          <Col className="item-bx" xl={3} xxl={3}>
+            <div className="align-self-center item" >
+              <SiJavascript size={"5em"}/>
+              <h5>JavaScript</h5>
+            </div>
+          </Col>
+          <Col className="item-bx" xl={3} xxl={3}>
             <div className="align-self-center item">
               <SiHtml5 size={"5em"}/>
              <h5>HTML</h5>
             </div>
           </Col>
-          <Col className="item-bx" xs={3} sm={3}>
+          <Col className="item-bx" xl={3} xxl={3}>
             <div className="align-self-center item">
               <SiCss3 size={"5em"}/>
             <h5>CSS</h5>
@@ -85,8 +88,27 @@ export const Skills = () => {
             <h5>Docker</h5>
             </div>
           </Col>
+          <Col className="item-bx">
+            <div className="item">
+              <SiPandas size={"5em"}/>
+            <h5>Pandas</h5>
+            </div>
+          </Col>
+          <Col className="item-bx">
+            <div className="item matplotlib">
+              <img src={matplotlib} alt="matplotlib"/>
+            <h5>Matplotlib</h5>
+            </div>
+          </Col>
+          <Col className="item-bx">
+            <div className="item seaborn">
+              <img src={seaborn} alt="seaborn"/>
+            <h5>Seaborn</h5>
+            </div>
+          </Col>
         </Row>
       </Container>
     </section>
   );
 };
+

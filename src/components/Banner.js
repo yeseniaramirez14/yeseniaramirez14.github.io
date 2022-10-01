@@ -71,8 +71,9 @@ export const Banner = () => {
                     accelerated coding bootcamp, which I completed in July 2022.
                     I love the ever-changing programming landscape and the
                     challenge of learning new tools, programming languages, and
-                    frameworks. I am eager to continue my learning and grow as a
-                    software engineer!
+                    frameworks. I also am diving into data engineering and have 
+                    enjoyed learning a new space of the tech world. I am eager 
+                    to continue my learning and grow as a software/data engineer!
                   </p>
                   <p>
                     I am now{" "}
