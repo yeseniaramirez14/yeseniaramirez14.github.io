@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.af489654.css",
-    "main.js": "/static/js/main.c6a5380c.js",
+    "main.css": "/static/css/main.29df81a9.css",
+    "main.js": "/static/js/main.dc1c4cab.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/overrated.gif": "/static/media/overrated.3cc1555ddd5ec99c8bbd.gif",
     "static/media/stay-classic.gif": "/static/media/stay-classic.b5afe7e7940b783377f8.gif",
@@ -20,12 +20,12 @@
     "static/media/Matplotlib_icon.svg": "/static/media/Matplotlib_icon.3741178a699eb17ddce91cccbc4c233c.svg",
     "static/media/Matplotlib_icon_hover.svg": "/static/media/Matplotlib_icon_hover.67a01f99549721185721.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.6d771bd7af503205983c9d541a1819fe.svg",
-    "main.af489654.css.map": "/static/css/main.af489654.css.map",
-    "main.c6a5380c.js.map": "/static/js/main.c6a5380c.js.map",
+    "main.29df81a9.css.map": "/static/css/main.29df81a9.css.map",
+    "main.dc1c4cab.js.map": "/static/js/main.dc1c4cab.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af489654.css",
-    "static/js/main.c6a5380c.js"
+    "static/css/main.29df81a9.css",
+    "static/js/main.dc1c4cab.js"
   ]
 }
