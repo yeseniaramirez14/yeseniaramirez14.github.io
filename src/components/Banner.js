@@ -18,7 +18,7 @@ export const Banner = () => {
     "Plant-Based Latina",
   ];
   const [text, setText] = useState("");
-  const [delta, setDelta] = useState(200);
+  const [delta, setDelta] = useState(200); // eslint-disable-next-line
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -27,7 +27,7 @@ export const Banner = () => {
     }, delta);
     return () => {
       clearInterval(ticker);
-    };
+    }; // eslint-disable-next-line
   }, [text]);
 
   const tick = () => {
@@ -73,7 +73,7 @@ export const Banner = () => {
                     challenge of learning new tools, programming languages, and
                     frameworks. I also am diving into data engineering and have 
                     enjoyed learning a new space of the tech world. I am eager 
-                    to continue my learning and grow as a software/data engineer!
+                    to continue my learning and grow as a software engineer!
                   </p>
                   <p>
                     I am now{" "}

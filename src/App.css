@@ -446,7 +446,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 20px;
   letter-spacing: 0.8px;
   line-height: 1.1em;
-
+}
+.proj-txt div {
+  margin-top: 1em;
 }
 .background-image-right {
   top: 20%;
