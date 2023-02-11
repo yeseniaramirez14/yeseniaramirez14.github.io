@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.bdd7b05b.css",
-    "main.js": "/static/js/main.4e830ce3.js",
+    "main.js": "/static/js/main.258b3533.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/overrated.gif": "/static/media/overrated.3cc1555ddd5ec99c8bbd.gif",
     "static/media/stay-classic.gif": "/static/media/stay-classic.b5afe7e7940b783377f8.gif",
     "static/media/chic_events.gif": "/static/media/chic_events.b1582b6e9e5f69f8ba7f.gif",
-    "static/media/work-in-progress.jpg": "/static/media/work-in-progress.88d715f261358862798d.jpg",
+    "static/media/seekingEvents.gif": "/static/media/seekingEvents.b9485ef6c9f3686c6f3f.gif",
     "static/media/footer.png": "/static/media/footer.4dd2efebcc0b82289c9c.png",
     "static/media/spotify-analysis.gif": "/static/media/spotify-analysis.bbd79639b384d48c49b3.gif",
+    "static/media/commonCrave.gif": "/static/media/commonCrave.03b317179f6657004027.gif",
     "static/media/PlayfairDisplay-VariableFont_wght.ttf": "/static/media/PlayfairDisplay-VariableFont_wght.3f7c141215e6d22d0f1e.ttf",
     "static/media/PlayfairDisplay-Italic-VariableFont_wght.ttf": "/static/media/PlayfairDisplay-Italic-VariableFont_wght.8a3a30667c7d75e00588.ttf",
     "static/media/thankyou.png": "/static/media/thankyou.998649381831ffb5b01a.png",
@@ -22,11 +23,11 @@
     "static/media/Matplotlib_icon_hover.svg": "/static/media/Matplotlib_icon_hover.67a01f99549721185721.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.6d771bd7af503205983c9d541a1819fe.svg",
     "main.bdd7b05b.css.map": "/static/css/main.bdd7b05b.css.map",
-    "main.4e830ce3.js.map": "/static/js/main.4e830ce3.js.map",
+    "main.258b3533.js.map": "/static/js/main.258b3533.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bdd7b05b.css",
-    "static/js/main.4e830ce3.js"
+    "static/js/main.258b3533.js"
   ]
 }
