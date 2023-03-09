@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import headerImg from "../assets/img/main_image.png";
+import headerImg from "../assets/img/laptop.png";
 import TrackVisibility from "react-on-screen";
 import "animate.css";
 
@@ -71,16 +71,8 @@ export const Banner = () => {
                     accelerated coding bootcamp, which I completed in July 2022.
                     I love the ever-changing programming landscape and the
                     challenge of learning new tools, programming languages, and
-                    frameworks. I also am diving into data engineering and have 
-                    enjoyed learning a new space of the tech world. I am eager 
-                    to continue my learning and grow as a software engineer!
-                  </p>
-                  <p>
-                    I am now{" "}
-                    <i>
-                      <b>open to work</b>
-                    </i>{" "}
-                    and looking for new job opportunities!
+                    frameworks. I am eager to continue my learning and grow as 
+                    a software engineer!
                   </p>
                   <a href="#connect">
                     <button>

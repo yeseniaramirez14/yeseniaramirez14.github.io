@@ -4,7 +4,8 @@ import chicEvents from "../assets/img/chic_events.gif";
 import stayClassic from "../assets/img/stay-classic.gif";
 import overrated from "../assets/img/overrated.gif";
 import spotify from "../assets/img/spotify-analysis.gif";
-import wip from "../assets/img/work-in-progress.jpg";
+import commonCrave from "../assets//img/commonCrave.gif"
+import seekingEvents from "../assets/img/seekingEvents.gif"
 import "animate.css";
 import { Footer } from "./Footer";
 import { Contact } from "./Contact";
@@ -12,20 +13,28 @@ import { Contact } from "./Contact";
 export const Projects = () => {
   const projects = [
     {
+      title: "Common Crave",
+      description:
+        "A restaurant recommendation website where friends can create groups to find a restaurant sharing their common craving while accommodating everyone's location.",
+      imgUrl: commonCrave,
+      gitUrl: "https://commoncrave.com/",
+      technologies: "Node.js, Express.js, MongoDB, React, Redux, Tailwind, AWS, Nginx, Ubuntu"
+    },
+    {
       title: "Overrated",
       description:
       "A dating web application where users can find their soulmate by weeding out bad seeds with the implementation of dating reviews",
       imgUrl: overrated,
       gitUrl: "https://github.com/yeseniaramirez14/overrated",
-      technologies: "FastAPI, PostgreSQL, React"
+      technologies: "FastAPI, PostgreSQL, React, Bootstrap"
     },
     {
-      title: "Spotify Data Analysis",
+      title: "Seeking Events",
       description:
-      "Data analysis of 20 of my favorite artists including data visualizations",
-      imgUrl: spotify,
-      gitUrl: "https://github.com/yeseniaramirez14/spotify_data_analysis",
-      technologies: "SQLite, Pandas, Matplotlib, Seaborn"
+        "An event booking website where organizations and users can connect through events",
+      imgUrl: seekingEvents,
+      gitUrl: "https://github.com/yeseniaramirez14/seeking-events",
+      technologies: "Node.js, Express.js, MongoDB, GraphQL"
     },
     {
       title: "Stay Classic Dealership",
@@ -33,7 +42,7 @@ export const Projects = () => {
       "A car dealership web application that solves the needs of a classic automobile operation including inventory, sales, and car services",
       imgUrl: stayClassic,
       gitUrl: "https://github.com/yeseniaramirez14/stay-classic",
-      technologies: "Django, PostgreSQL, React"
+      technologies: "Django, PostgreSQL, React, Bootstrap"
     },
     {
       title: "Chic Events",
@@ -44,12 +53,12 @@ export const Projects = () => {
       technologies: "Django, SQLite, HTML, CSS"
     },
     {
-      title: "Seeking Events",
+      title: "Spotify Data Analysis",
       description:
-        "An event booking website where organizations and users can connect through events",
-      imgUrl: wip,
-      gitUrl: "https://github.com/yeseniaramirez14/seeking-events",
-      technologies: "Node.js, Express, MongoDB, React, GraphQL"
+      "Data analysis of 20 of my favorite artists including data visualizations",
+      imgUrl: spotify,
+      gitUrl: "https://github.com/yeseniaramirez14/spotify_data_analysis",
+      technologies: "SQLite, Pandas, Matplotlib, Seaborn"
     },
   ];
 

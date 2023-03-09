@@ -1,7 +1,7 @@
 import { useForm } from "@formspree/react";
 import { Container, Row, Col } from "react-bootstrap";
 import { useState } from "react";
-import contact from "../assets/img/contact.png";
+import contact from "../assets/img/wave.png";
 import { SuccessMsg } from "./SuccessMsg";
 
 export function Contact() {
